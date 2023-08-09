@@ -1,5 +1,6 @@
 name: Appium Build
 on:
+  workflow_dispatch: # for manual trigger 
   push:
     # this list of paths could potentially impact the build
     paths:
